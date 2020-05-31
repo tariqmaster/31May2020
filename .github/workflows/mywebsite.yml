@@ -30,4 +30,4 @@ jobs:
     - name: installing surge
       run: npm istall --global surge
     - name: deploying using surge
-      run: surge ./ http://tariqbootcamp2020.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./ http://tariqbootcamp2020.surge.sh/ --token ${{ secrets.SURGE_TOKEN }}
